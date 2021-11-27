@@ -1,0 +1,147 @@
+.creditCardForm {
+    max-width: 800px;
+    background-color: #fff;
+    margin: 50px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.creditCardForm .article {
+  margin: 50px 25px;
+}
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+.seperator {
+  width: 33%;
+  height: 1px;
+  color: grey;
+  background-color: grey; 
+  display: inline-block;
+}
+.left {
+  float: left;
+}
+.right {
+float: right;
+}
+.creditCardForm .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+.creditCardForm .email {
+    width: 100%;
+}
+.creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+.creditCardForm .CVV {
+    width: 35%;
+}
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+.creditCardForm #expiration-date {
+    width: 49%;
+}
+.creditCardForm #credit_cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #696969;
+    color: lightgray;
+}
+.creditCardForm .payment .btn:hover{
+    background-color: gray;
+}
+.creditCardForm .payment .btn:active{
+    background-color: black;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+.transparent {
+    opacity: 0.2;
+}
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #country {
+        font-size: 90%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
+@media(max-width: 500px) {
+    .creditCardForm #country {
+        font-size: 75%;
+    }
+    .seperator {
+        width: 25%;
+  }
+}
+@media(max-width: 425px) {
+    .creditCardForm .back h2, 
+    .creditCardForm .heading h1 {
+    font-size: 150%;
+    }  
+    .creditCardForm .article img {
+        width: 90%;
+    }
+    .creditCardForm #expiration-date #month,
+    .creditCardForm #expiration-date #year {
+        font-size: 85%;
+    }
+    .creditCardForm #credit_cards img {
+        width: 50px;
+        height: auto;
+    }
+    .creditCardForm #country {
+        font-size: 60%;
+    }
+    .seperator {
+        width: 20%;
+  }
+    @media(max-width: 360px) {
+    .creditCardForm #country {
+        font-size: 50%;
+    }
+}

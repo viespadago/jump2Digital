@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18px sans-serif;
+    color: #333;
+    background-color: lightgray;
+}
+
+a {
+  color: darkgray;
+  font-family: fantasy;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.container-fluid{
+    padding:0;
+    margin:0;
+}
